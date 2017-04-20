@@ -1,8 +1,8 @@
-package testcases::WebPodView;
+package testcases::PodView::WebPodView;
 use strict;
 use XAO::Utils;
 
-use base qw(testcases::base);
+use base qw(testcases::PodView::base);
 
 sub test_all {
     my $self=shift;
